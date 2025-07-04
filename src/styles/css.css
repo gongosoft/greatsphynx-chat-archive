@@ -193,7 +193,7 @@ img#mornReal {
     left: 4rem;
     position: fixed;
     top: 0;
-    transform: rotate(180deg);
+    transform: scale(1, -1);
     width: 4rem;
     z-index: 0;
 }
