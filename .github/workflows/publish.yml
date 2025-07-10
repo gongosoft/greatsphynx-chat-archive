@@ -2,12 +2,12 @@ name: Build and deploy
 
 on:
   push:
-    branches: ['main']
-    paths: ['index.html', 'package.json', 'vite.config.ts', '.github/workflows/publish.yml', 'public/**', 'src/**']
+    branches: [main]
+    paths: [index.html, package.json, vite.config.ts, .github/workflows/publish.yml, public/**, src/**]
   workflow_dispatch:
 
 concurrency:
-  group: 'dist'
+  group: dist
   cancel-in-progress: true
 
 jobs:
