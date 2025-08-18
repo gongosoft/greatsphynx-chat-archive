@@ -27,7 +27,7 @@ jobs:
           cd -
 
       - name: Checkout
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v5.0.0
 
       - name: Install Bun
         uses: oven-sh/setup-bun@v2.0.2
