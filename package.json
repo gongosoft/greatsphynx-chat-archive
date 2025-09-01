@@ -21,7 +21,7 @@
         "vite-plugin-minify": "^2.1.0"
     },
     "dependencies": {
-        "bootstrap": "^5.3.7",
+        "bootstrap": "^5.3.8",
         "jquery": "^3.7.1"
     }
 }
