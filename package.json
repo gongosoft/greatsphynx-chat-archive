@@ -12,7 +12,7 @@
         "preview": "vite preview"
     },
     "devDependencies": {
-        "@types/bun": "^1.2.21",
+        "@types/bun": "^1.2.22",
         "browserslist": "^4.26.0",
         "glob": "^11.0.3",
         "lightningcss": "^1.30.1",
