@@ -1,9 +1,9 @@
-import { browserslistToTargets } from 'lightningcss';
-import { defineConfig } from 'vite';
-import { globSync } from 'glob';
-import { ViteMinifyPlugin } from 'vite-plugin-minify'
-import browserslist from 'browserslist';
 import path from 'path';
+import browserslist from 'browserslist';
+import { globSync } from 'glob';
+import { defineConfig } from 'vite';
+import { ViteMinifyPlugin } from 'vite-plugin-minify'
+import { browserslistToTargets } from 'lightningcss';
 
 export default defineConfig({
     build: {

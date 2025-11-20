@@ -7,6 +7,7 @@
     "repository": "https://github.com/Bergbok/GreatSphynx-Chat-Archive",
     "scripts": {
         "build": "vite build",
+        "deploy": "wrangler deploy",
         "postbuild": "mv dist/src/html/* dist && rm -r dist/src && bun src/scripts/replace-placeholders.js",
         "prebuild": "bun src/scripts/print-memory.js",
         "preview": "vite preview"
@@ -18,7 +19,8 @@
         "lightningcss": "^1.30.2",
         "replace-in-file": "^8.3.0",
         "vite": "^7.2.2",
-        "vite-plugin-minify": "^2.1.0"
+        "vite-plugin-minify": "^2.1.0",
+        "wrangler": "^4.49.0"
     },
     "dependencies": {
         "bootstrap": "^5.3.8",
